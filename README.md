@@ -45,7 +45,7 @@ The journey to triumph is divided into four distinct sections, each brimming wit
 
 #### Project Setup and Analysis Documentation (10 points)
 
-- Create a comprehensive project setup guide, including Docker configurations.
+- Create a comprehensive project setup guide.
 - Document your advanced analysis and data mapping approaches.
 - Discuss strategies for handling evolving feed structures.
 
