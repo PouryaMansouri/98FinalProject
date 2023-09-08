@@ -19,7 +19,7 @@ The journey to triumph is divided into four distinct sections, each brimming wit
 - Create a fresh Django project and dedicate an app to your endeavor.
 - Configure the app to utilize PostgreSQL as your database.
 - Inaugurate a Git repository and commit your initial project files.
-- Implement Docker containers for easy deployment and scaling 🐳.
+- Implement custom JWT authentication based on storing access tokens in Redis.
 
 #### Advanced RSS Feed Analysis and Mapping 📰 (40 points)
 
@@ -118,4 +118,4 @@ The journey to triumph is divided into four distinct sections, each brimming wit
 
 🚀 **Deliverables:** An application equipped with structured logging using Structlog, Elasticsearch for log management, final performance optimizations, and an enhanced user interface.
 
-By combining these four sections, you embark on a comprehensive development journey that covers project setup, advanced RSS feed scraping, real-time updates, user dashboards, structured logging, and much more. Good luck, and may your quest through Django and RSS feed aggregation be an unparalleled triumph! 🌟🚀🐳
+By combining these four sections, you embark on a comprehensive development journey that covers project setup, advanced RSS feed scraping, periodic updates, user dashboards, structured logging, and much more. Good luck, and may your quest through Django and RSS feed aggregation be an unparalleled triumph! 🌟🚀🐳
