@@ -71,26 +71,24 @@ The journey to triumph is divided into four distinct sections, each brimming wit
 - Use Docker Compose to define a development environment with services like PostgreSQL for the database and Celery for distributed task processing.
 - Configure Docker Compose to link your Django application with these services.
 
-### Section 3: Periodic Updates, User Dashboards, and Analytics (100 points)
+### Section 3: Periodic Updates, Logging, and Event Tracking (100 points)
 
 #### Periodic Feed Updates 🚀 (30 points)
-
 - Implement periodic tasks using a task scheduler (e.g., Celery Beat) to update RSS feeds at defined intervals (e.g., hourly, daily).
 - Configure the task scheduler to trigger feed updates automatically.
 - Handle edge cases, such as rate limiting and concurrent feed updates, to ensure data integrity.
-- Log update events and errors for monitoring.
+- Store all update events and errors in an Elasticsearch database for monitoring and analysis.
 
-#### User Dashboards and Analytics 📊 (40 points)
+#### Logging and Event Tracking (40 points)
+- Store every API request and response in one log.
+- Store Celery task actions and status changes in a dedicated log.
+- Follow best practices for structuring logs to facilitate troubleshooting and analysis.
 
-- Develop personalized user dashboards for managing subscriptions, notifications, and saved items.
-- Implement analytics to track user behavior, popular feeds, and trending content.
-- Create visualizations for user insights.
+#### RabbitMQ Integration (30 points)
+- Replace Advanced User Notifications with a RabbitMQ-based system for publishing and consuming events.
+- Publish all login or register events and token refresh actions to RabbitMQ.
+- Implement event consumers to perform user-related actions based on published events.
 
-#### Advanced User Notifications 📢 (30 points)
-
-- Enhance the notification system with push notifications for mobile devices. (optional)
-- Implement intelligent notification scheduling based on user activity patterns.
-- Enable users to set up custom notification triggers and actions.
 
 ### Section 4: Advanced Logging with Structlog and Elasticsearch, Final Enhancements (100 points)
 
