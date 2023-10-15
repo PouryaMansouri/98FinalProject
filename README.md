@@ -98,7 +98,6 @@ The journey to triumph is divided into four distinct sections, each brimming wit
 #### Add Django Translate for Multilingual Support (50 points)
 - Integrate Django's translation framework to support multiple languages in the application.
 - Identify translatable text and wrap them in translation tags.
-- Generate translation files for different languages and provide translations for the wrapped text.
 - Implement language switching functionality to allow users to switch between different languages in the application.
 
 🏆 **Achievements:** Effective periodic feed updates, comprehensive logging and event tracking, RabbitMQ integration, completion of all sections, and multilingual support using Django Translate.
